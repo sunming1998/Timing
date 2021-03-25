@@ -1,0 +1,1020 @@
+{
+  "uid" : "a1271ab9c828f6b5",
+  "name" : "test_checkRecordPage",
+  "fullName" : "test_021_checkRecordPage.Test_checkRecordPage#test_checkRecordPage",
+  "historyId" : "ca0d3d56d5747fc9a4297c371670d94c",
+  "time" : {
+    "start" : 1616601840532,
+    "stop" : 1616601867131,
+    "duration" : 26599
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "进入道友聊天页",
+      "time" : {
+        "start" : 1616601840532,
+        "stop" : 1616601849701,
+        "duration" : 9169
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击说话就拍按钮",
+      "time" : {
+        "start" : 1616601849701,
+        "stop" : 1616601853330,
+        "duration" : 3629
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击确定按钮",
+      "time" : {
+        "start" : 1616601853330,
+        "stop" : 1616601857513,
+        "duration" : 4183
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "检查界面元素",
+      "time" : {
+        "start" : 1616601857513,
+        "stop" : 1616601867130,
+        "duration" : 9617
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "检查后退按钮",
+        "time" : {
+          "start" : 1616601857513,
+          "stop" : 1616601858286,
+          "duration" : 773
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "检查顶部标题",
+        "time" : {
+          "start" : 1616601858287,
+          "stop" : 1616601858301,
+          "duration" : 14
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "检查发送对象",
+        "time" : {
+          "start" : 1616601858301,
+          "stop" : 1616601858313,
+          "duration" : 12
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "检查引导文案",
+        "time" : {
+          "start" : 1616601858314,
+          "stop" : 1616601858328,
+          "duration" : 14
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "检查美颜按钮",
+        "time" : {
+          "start" : 1616601858328,
+          "stop" : 1616601858470,
+          "duration" : 142
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "点击美颜按钮",
+          "time" : {
+            "start" : 1616601858338,
+            "stop" : 1616601858470,
+            "duration" : 132
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "检查切换摄像头按钮",
+        "time" : {
+          "start" : 1616601858470,
+          "stop" : 1616601864847,
+          "duration" : 6377
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "点击摄像头按钮",
+          "time" : {
+            "start" : 1616601858991,
+            "stop" : 1616601861587,
+            "duration" : 2596
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "连点切换摄像头",
+          "time" : {
+            "start" : 1616601861588,
+            "stop" : 1616601864847,
+            "duration" : 3259
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "检查头套按钮",
+        "time" : {
+          "start" : 1616601864847,
+          "stop" : 1616601865085,
+          "duration" : 238
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "点击头套按钮",
+          "time" : {
+            "start" : 1616601864857,
+            "stop" : 1616601865085,
+            "duration" : 228
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "检查柠檬头",
+        "time" : {
+          "start" : 1616601865085,
+          "stop" : 1616601866528,
+          "duration" : 1443
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "滑动柠檬头进入说话就拍状态",
+          "time" : {
+            "start" : 1616601865692,
+            "stop" : 1616601866528,
+            "duration" : 836
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "断言：成功进入录制状态",
+        "time" : {
+          "start" : 1616601866528,
+          "stop" : 1616601867130,
+          "duration" : 602
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 14,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 18,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_021_checkRecordPage"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_checkRecordPage"
+  }, {
+    "name" : "host",
+    "value" : "WINDOWS-49AO44L"
+  }, {
+    "name" : "thread",
+    "value" : "11708-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_021_checkRecordPage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "70595d0de9d6a89c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616597406075,
+        "stop" : 1616597477033,
+        "duration" : 70958
+      }
+    }, {
+      "uid" : "16741db5f8cb44ae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616596228497,
+        "stop" : 1616596255907,
+        "duration" : 27410
+      }
+    }, {
+      "uid" : "6fa7e41f157f4521",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616584995151,
+        "stop" : 1616585019397,
+        "duration" : 24246
+      }
+    }, {
+      "uid" : "97cb41a38ccdc1c8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616577756380,
+        "stop" : 1616577780117,
+        "duration" : 23737
+      }
+    }, {
+      "uid" : "1b1609fb6b89b682",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616142371580,
+        "stop" : 1616142398662,
+        "duration" : 27082
+      }
+    }, {
+      "uid" : "7ee706f401eff211",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616138006364,
+        "stop" : 1616138049389,
+        "duration" : 43025
+      }
+    }, {
+      "uid" : "33a52fa1ae85c583",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616122441187,
+        "stop" : 1616122507035,
+        "duration" : 65848
+      }
+    }, {
+      "uid" : "4563780296df4967",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616080089214,
+        "stop" : 1616080113049,
+        "duration" : 23835
+      }
+    }, {
+      "uid" : "c46023845f0fee3c",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1615550260873,
+        "stop" : 1615550312121,
+        "duration" : 51248
+      }
+    }, {
+      "uid" : "5d2cf961c269435b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615516578162,
+        "stop" : 1615516601288,
+        "duration" : 23126
+      }
+    }, {
+      "uid" : "6f5f69219fb94e6e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615469374526,
+        "stop" : 1615469440463,
+        "duration" : 65937
+      }
+    }, {
+      "uid" : "124e94bc275ebe55",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615466763774,
+        "stop" : 1615466787674,
+        "duration" : 23900
+      }
+    }, {
+      "uid" : "ce0aab4399eae621",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615455825723,
+        "stop" : 1615455850262,
+        "duration" : 24539
+      }
+    }, {
+      "uid" : "c22dbf6f15ebaf3d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615430446268,
+        "stop" : 1615430512708,
+        "duration" : 66440
+      }
+    }, {
+      "uid" : "7e3ddd58e50c524f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615428471219,
+        "stop" : 1615428494659,
+        "duration" : 23440
+      }
+    }, {
+      "uid" : "fa5cad4a785795ef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615031463367,
+        "stop" : 1615031489248,
+        "duration" : 25881
+      }
+    }, {
+      "uid" : "76e9abf6eca11717",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False == True\n  +False\n  -True",
+      "time" : {
+        "start" : 1615020415770,
+        "stop" : 1615020491960,
+        "duration" : 76190
+      }
+    }, {
+      "uid" : "8fb911050909a264",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1615015903843,
+        "stop" : 1615015955538,
+        "duration" : 51695
+      }
+    }, {
+      "uid" : "9f97024fe8a60100",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614626619282,
+        "stop" : 1614626647949,
+        "duration" : 28667
+      }
+    }, {
+      "uid" : "e498a593f1c3983c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614613470057,
+        "stop" : 1614613540691,
+        "duration" : 70634
+      }
+    }, {
+      "uid" : "f5cc625d53215437",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614611177937,
+        "stop" : 1614611250179,
+        "duration" : 72242
+      }
+    }, {
+      "uid" : "ca6c722e0975fc7b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614609016530,
+        "stop" : 1614609040864,
+        "duration" : 24334
+      }
+    }, {
+      "uid" : "c219349b46ec5d00",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614605759751,
+        "stop" : 1614605784776,
+        "duration" : 25025
+      }
+    }, {
+      "uid" : "9a2d1a9943b9ee7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614330944004,
+        "stop" : 1614331016572,
+        "duration" : 72568
+      }
+    }, {
+      "uid" : "461f13aca964cdb9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614321291654,
+        "stop" : 1614321364003,
+        "duration" : 72349
+      }
+    }, {
+      "uid" : "b3e0d980c2985d2c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614316680453,
+        "stop" : 1614316753307,
+        "duration" : 72854
+      }
+    }, {
+      "uid" : "a123e3b913618eff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614315405909,
+        "stop" : 1614315434188,
+        "duration" : 28279
+      }
+    }, {
+      "uid" : "ef7846a22771f5b2",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1614264378372,
+        "stop" : 1614264438106,
+        "duration" : 59734
+      }
+    }, {
+      "uid" : "39aacaf676a2a60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614261419058,
+        "stop" : 1614261449422,
+        "duration" : 30364
+      }
+    }, {
+      "uid" : "12377c47dad481aa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614259779296,
+        "stop" : 1614259851461,
+        "duration" : 72165
+      }
+    }, {
+      "uid" : "8828ac968eba256c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614258006662,
+        "stop" : 1614258035750,
+        "duration" : 29088
+      }
+    }, {
+      "uid" : "9fa5cf7f5789a464",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1614238193509,
+        "stop" : 1614238265296,
+        "duration" : 71787
+      }
+    }, {
+      "uid" : "a16bca4bbd42f120",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614227647050,
+        "stop" : 1614227674828,
+        "duration" : 27778
+      }
+    }, {
+      "uid" : "c816cc011ab875e4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614168530886,
+        "stop" : 1614168556085,
+        "duration" : 25199
+      }
+    }, {
+      "uid" : "e11272f13fa52c9c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614166153560,
+        "stop" : 1614166178683,
+        "duration" : 25123
+      }
+    }, {
+      "uid" : "40e29836751725d3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614161422202,
+        "stop" : 1614161489149,
+        "duration" : 66947
+      }
+    }, {
+      "uid" : "81da43010810066a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614148867230,
+        "stop" : 1614148938154,
+        "duration" : 70924
+      }
+    }, {
+      "uid" : "bcaefe947d48cf44",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614142695179,
+        "stop" : 1614142765164,
+        "duration" : 69985
+      }
+    }, {
+      "uid" : "8b5e7392b19ee5bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614138223652,
+        "stop" : 1614138248928,
+        "duration" : 25276
+      }
+    }, {
+      "uid" : "3142a2cfcd989aa6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614071910196,
+        "stop" : 1614071939027,
+        "duration" : 28831
+      }
+    }, {
+      "uid" : "e71769e2ce3a4c20",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612796979014,
+        "stop" : 1612797006172,
+        "duration" : 27158
+      }
+    }, {
+      "uid" : "b06aae94b944cc55",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612028956561,
+        "stop" : 1612028985558,
+        "duration" : 28997
+      }
+    }, {
+      "uid" : "94eeb51a1a73c601",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608197689981,
+        "stop" : 1608197717977,
+        "duration" : 27996
+      }
+    }, {
+      "uid" : "81cd4a712d97901d",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False == True\n  +False\n  -True",
+      "time" : {
+        "start" : 1608133663774,
+        "stop" : 1608133742454,
+        "duration" : 78680
+      }
+    }, {
+      "uid" : "515ac7f8b063366c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608109301056,
+        "stop" : 1608109357382,
+        "duration" : 56326
+      }
+    }, {
+      "uid" : "f5de8dfa58903cd0",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1608108349424,
+        "stop" : 1608108414983,
+        "duration" : 65559
+      }
+    }, {
+      "uid" : "7c2412b81fc6204b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607864224152,
+        "stop" : 1607864298794,
+        "duration" : 74642
+      }
+    }, {
+      "uid" : "27cba34d58f00d78",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607616594467,
+        "stop" : 1607616628754,
+        "duration" : 34287
+      }
+    }, {
+      "uid" : "cbd627fc22f8277f",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1607613133018,
+        "stop" : 1607613198383,
+        "duration" : 65365
+      }
+    }, {
+      "uid" : "2f1614ea6d2566d0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607495876808,
+        "stop" : 1607495945292,
+        "duration" : 68484
+      }
+    }, {
+      "uid" : "7deb677f93a52f9d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607321812749,
+        "stop" : 1607321838643,
+        "duration" : 25894
+      }
+    }, {
+      "uid" : "69985fc3a5709163",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1607315784997,
+        "stop" : 1607315849329,
+        "duration" : 64332
+      }
+    }, {
+      "uid" : "4888907c3dff06e",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1607314797678,
+        "stop" : 1607314888001,
+        "duration" : 90323
+      }
+    }, {
+      "uid" : "c1071636a5a2583a",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E2E6662B20>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "time" : {
+        "start" : 1607262575469,
+        "stop" : 1607262575469,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "59934572bb0f25a5",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1607262227089,
+        "stop" : 1607262278936,
+        "duration" : 51847
+      }
+    }, {
+      "uid" : "92b65cebb7c866c8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606999134857,
+        "stop" : 1606999169235,
+        "duration" : 34378
+      }
+    }, {
+      "uid" : "26bab4751bfc1225",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1606988970899,
+        "stop" : 1606989046574,
+        "duration" : 75675
+      }
+    }, {
+      "uid" : "3851bc490c1c7e36",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606988822682,
+        "stop" : 1606988847152,
+        "duration" : 24470
+      }
+    }, {
+      "uid" : "812a44e1e03cf405",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1606988502685,
+        "stop" : 1606988569834,
+        "duration" : 67149
+      }
+    }, {
+      "uid" : "89b22d262e6d21bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606988370578,
+        "stop" : 1606988386768,
+        "duration" : 16190
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 7,
+        "broken" : 4,
+        "skipped" : 0,
+        "passed" : 49,
+        "unknown" : 0,
+        "total" : 60
+      },
+      "items" : [ {
+        "uid" : "c893b432fc081653",
+        "reportUrl" : "http://localhost:8080/job/Timing/105/allure/#testresult/c893b432fc081653",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616597406075,
+          "stop" : 1616597477033,
+          "duration" : 70958
+        }
+      }, {
+        "uid" : "336e8e6211de3333",
+        "reportUrl" : "http://localhost:8080/job/Timing/104/allure/#testresult/336e8e6211de3333",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616596228497,
+          "stop" : 1616596255907,
+          "duration" : 27410
+        }
+      }, {
+        "uid" : "a5ca99defdc2e856",
+        "reportUrl" : "http://localhost:8080/job/Timing/103/allure/#testresult/a5ca99defdc2e856",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616584995151,
+          "stop" : 1616585019397,
+          "duration" : 24246
+        }
+      }, {
+        "uid" : "6523223f53b65f80",
+        "reportUrl" : "http://localhost:8080/job/Timing/101/allure/#testresult/6523223f53b65f80",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616577756380,
+          "stop" : 1616577780117,
+          "duration" : 23737
+        }
+      }, {
+        "uid" : "66043640889fbd37",
+        "reportUrl" : "http://localhost:8080/job/Timing/100/allure/#testresult/66043640889fbd37",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616142371580,
+          "stop" : 1616142398662,
+          "duration" : 27082
+        }
+      }, {
+        "uid" : "f907edb9ed4fa8e4",
+        "reportUrl" : "http://localhost:8080/job/Timing/99/allure/#testresult/f907edb9ed4fa8e4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616138006364,
+          "stop" : 1616138049389,
+          "duration" : 43025
+        }
+      }, {
+        "uid" : "c135af75082145b0",
+        "reportUrl" : "http://localhost:8080/job/Timing/98/allure/#testresult/c135af75082145b0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616122441187,
+          "stop" : 1616122507035,
+          "duration" : 65848
+        }
+      }, {
+        "uid" : "a7a54a9ca7f6d10f",
+        "reportUrl" : "http://localhost:8080/job/Timing/94/allure/#testresult/a7a54a9ca7f6d10f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615967350316,
+          "stop" : 1615967370471,
+          "duration" : 20155
+        }
+      }, {
+        "uid" : "3ec200b1e38183dc",
+        "reportUrl" : "http://localhost:8080/job/Timing/93/allure/#testresult/3ec200b1e38183dc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615945419111,
+          "stop" : 1615945460042,
+          "duration" : 40931
+        }
+      }, {
+        "uid" : "13d78024097259d1",
+        "reportUrl" : "http://localhost:8080/job/Timing/92/allure/#testresult/13d78024097259d1",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+        "time" : {
+          "start" : 1615897316967,
+          "stop" : 1615897374159,
+          "duration" : 57192
+        }
+      }, {
+        "uid" : "204e56d3fec30a5b",
+        "reportUrl" : "http://localhost:8080/job/Timing/90/allure/#testresult/204e56d3fec30a5b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615721183516,
+          "stop" : 1615721209670,
+          "duration" : 26154
+        }
+      }, {
+        "uid" : "79c1632e3a6c62ef",
+        "reportUrl" : "http://localhost:8080/job/Timing/89/allure/#testresult/79c1632e3a6c62ef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615708678661,
+          "stop" : 1615708705096,
+          "duration" : 26435
+        }
+      }, {
+        "uid" : "1aba7bf6979f93f5",
+        "reportUrl" : "http://localhost:8080/job/Timing/85/allure/#testresult/1aba7bf6979f93f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615516578162,
+          "stop" : 1615516601288,
+          "duration" : 23126
+        }
+      }, {
+        "uid" : "ea06f297721efd47",
+        "reportUrl" : "http://localhost:8080/job/Timing/84/allure/#testresult/ea06f297721efd47",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615469374526,
+          "stop" : 1615469440463,
+          "duration" : 65937
+        }
+      }, {
+        "uid" : "defe4d561a4c0dea",
+        "reportUrl" : "http://localhost:8080/job/Timing/83/allure/#testresult/defe4d561a4c0dea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615466763774,
+          "stop" : 1615466787674,
+          "duration" : 23900
+        }
+      }, {
+        "uid" : "c76bdda959f53ec5",
+        "reportUrl" : "http://localhost:8080/job/Timing/82/allure/#testresult/c76bdda959f53ec5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615455825723,
+          "stop" : 1615455850262,
+          "duration" : 24539
+        }
+      }, {
+        "uid" : "59bdab4805b2c944",
+        "reportUrl" : "http://localhost:8080/job/Timing/81/allure/#testresult/59bdab4805b2c944",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615031463367,
+          "stop" : 1615031489248,
+          "duration" : 25881
+        }
+      }, {
+        "uid" : "2e7b743d3e8edc8d",
+        "reportUrl" : "http://localhost:8080/job/Timing/80/allure/#testresult/2e7b743d3e8edc8d",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert False == True\n  +False\n  -True",
+        "time" : {
+          "start" : 1615020415770,
+          "stop" : 1615020491960,
+          "duration" : 76190
+        }
+      }, {
+        "uid" : "db0ef36f27316c84",
+        "reportUrl" : "http://localhost:8080/job/Timing/78/allure/#testresult/db0ef36f27316c84",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614626619282,
+          "stop" : 1614626647949,
+          "duration" : 28667
+        }
+      }, {
+        "uid" : "b7603e320aeffe8b",
+        "reportUrl" : "http://localhost:8080/job/Timing/77/allure/#testresult/b7603e320aeffe8b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614613470057,
+          "stop" : 1614613540691,
+          "duration" : 70634
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "a1271ab9c828f6b5.json",
+  "parameterValues" : [ ]
+}

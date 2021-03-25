@@ -1,0 +1,787 @@
+{
+  "uid" : "4e380cf4b6ae24c6",
+  "name" : "test_loginByWexin",
+  "fullName" : "test_004_loginByWexin.Test_loginByWexin#test_loginByWexin",
+  "historyId" : "cc260aa809f1fa2970fc9598557b8c6d",
+  "time" : {
+    "start" : 1616601659895,
+    "stop" : 1616601674595,
+    "duration" : 14700
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击同意服务协议",
+      "time" : {
+        "start" : 1616601659895,
+        "stop" : 1616601666950,
+        "duration" : 7055
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击Weixin登录",
+      "time" : {
+        "start" : 1616601666950,
+        "stop" : 1616601671146,
+        "duration" : 4196
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "断言:看到学习圈按钮-->登录成功",
+      "time" : {
+        "start" : 1616601671146,
+        "stop" : 1616601674595,
+        "duration" : 3449
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_004_loginByWexin"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_loginByWexin"
+  }, {
+    "name" : "host",
+    "value" : "WINDOWS-49AO44L"
+  }, {
+    "name" : "thread",
+    "value" : "11708-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_004_loginByWexin"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "909f2fdd876ef490",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616597255089,
+        "stop" : 1616597268551,
+        "duration" : 13462
+      }
+    }, {
+      "uid" : "52df59265d6beaec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616596066788,
+        "stop" : 1616596083841,
+        "duration" : 17053
+      }
+    }, {
+      "uid" : "a03a14ae86d9608f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616584809839,
+        "stop" : 1616584823342,
+        "duration" : 13503
+      }
+    }, {
+      "uid" : "4062462b6f289382",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: A new session could not be created. (Original error: UiAutomator quit before it successfully launched)",
+      "time" : {
+        "start" : 1616584675364,
+        "stop" : 1616584675364,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "1c5d1a4e98dc7f78",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616577506610,
+        "stop" : 1616577528414,
+        "duration" : 21804
+      }
+    }, {
+      "uid" : "8c2a2e0be983f42",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616142228929,
+        "stop" : 1616142243098,
+        "duration" : 14169
+      }
+    }, {
+      "uid" : "3ef719f040d4cd33",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616137871172,
+        "stop" : 1616137885951,
+        "duration" : 14779
+      }
+    }, {
+      "uid" : "6ff2e8dc21d67d26",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616122290467,
+        "stop" : 1616122308269,
+        "duration" : 17802
+      }
+    }, {
+      "uid" : "5b190bcda86ade6d",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False == True\n  +False\n  -True",
+      "time" : {
+        "start" : 1616079872660,
+        "stop" : 1616079933578,
+        "duration" : 60918
+      }
+    }, {
+      "uid" : "4a585c2982308b3b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615550019749,
+        "stop" : 1615550031258,
+        "duration" : 11509
+      }
+    }, {
+      "uid" : "a00ba12fc26dcfd3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615516422337,
+        "stop" : 1615516437402,
+        "duration" : 15065
+      }
+    }, {
+      "uid" : "6fcbdde906a39e8e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615469116344,
+        "stop" : 1615469128616,
+        "duration" : 12272
+      }
+    }, {
+      "uid" : "23090e2c18219ff0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615466611757,
+        "stop" : 1615466623467,
+        "duration" : 11710
+      }
+    }, {
+      "uid" : "3acd326700a8c4e2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615455608954,
+        "stop" : 1615455621912,
+        "duration" : 12958
+      }
+    }, {
+      "uid" : "d8ae2e235811fd5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615430316796,
+        "stop" : 1615430327908,
+        "duration" : 11112
+      }
+    }, {
+      "uid" : "387c5f1b05e904c4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615428321931,
+        "stop" : 1615428332286,
+        "duration" : 10355
+      }
+    }, {
+      "uid" : "55fbf6eac44137c4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615031205019,
+        "stop" : 1615031232908,
+        "duration" : 27889
+      }
+    }, {
+      "uid" : "a0a8d7abbc4d5fe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615020165418,
+        "stop" : 1615020192332,
+        "duration" : 26914
+      }
+    }, {
+      "uid" : "ea7cc9e42ca179bb",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. (Original error: com.tencent.mm/.plugin.webview.ui.tools.SDKOAuthUI never started. Current: com.huiian.timing/.view.activity.MainActivity)",
+      "time" : {
+        "start" : 1615015636952,
+        "stop" : 1615015679900,
+        "duration" : 42948
+      }
+    }, {
+      "uid" : "90c8522731e4b4cf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614626396012,
+        "stop" : 1614626427739,
+        "duration" : 31727
+      }
+    }, {
+      "uid" : "be7e54e49fff05b4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614613191313,
+        "stop" : 1614613217960,
+        "duration" : 26647
+      }
+    }, {
+      "uid" : "f25edf1c598104cf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614610971384,
+        "stop" : 1614610998442,
+        "duration" : 27058
+      }
+    }, {
+      "uid" : "fd4d29c5de289c2a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614608858222,
+        "stop" : 1614608884422,
+        "duration" : 26200
+      }
+    }, {
+      "uid" : "4ba012d68aedf21e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614605508549,
+        "stop" : 1614605536625,
+        "duration" : 28076
+      }
+    }, {
+      "uid" : "60e5dfea9ef2a5a3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614330717269,
+        "stop" : 1614330749072,
+        "duration" : 31803
+      }
+    }, {
+      "uid" : "3ebad718dd4a5589",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614321073073,
+        "stop" : 1614321105267,
+        "duration" : 32194
+      }
+    }, {
+      "uid" : "e910ad35369f3d2a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614316464314,
+        "stop" : 1614316516933,
+        "duration" : 52619
+      }
+    }, {
+      "uid" : "c920d6ae59ae0b6f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614315204158,
+        "stop" : 1614315256756,
+        "duration" : 52598
+      }
+    }, {
+      "uid" : "e9309158f6b6bce7",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1614264100259,
+        "stop" : 1614264192354,
+        "duration" : 92095
+      }
+    }, {
+      "uid" : "224398dd20ab752e",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1614263749784,
+        "stop" : 1614263800934,
+        "duration" : 51150
+      }
+    }, {
+      "uid" : "4d12d27464b6434a",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1614261187608,
+        "stop" : 1614261247068,
+        "duration" : 59460
+      }
+    }, {
+      "uid" : "6f7afabdef108e41",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614259492858,
+        "stop" : 1614259532313,
+        "duration" : 39455
+      }
+    }, {
+      "uid" : "e043e0623c49a326",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1614257651744,
+        "stop" : 1614257776783,
+        "duration" : 125039
+      }
+    }, {
+      "uid" : "238b3a241460b88",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1614237803912,
+        "stop" : 1614237877647,
+        "duration" : 73735
+      }
+    }, {
+      "uid" : "605faa157e27ff02",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1614227330137,
+        "stop" : 1614227410472,
+        "duration" : 80335
+      }
+    }, {
+      "uid" : "ee6c374900959780",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1614168218091,
+        "stop" : 1614168291572,
+        "duration" : 73481
+      }
+    }, {
+      "uid" : "d7d779aa366d113e",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1614165917955,
+        "stop" : 1614165990116,
+        "duration" : 72161
+      }
+    }, {
+      "uid" : "13418fe57b477752",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1614161184012,
+        "stop" : 1614161257501,
+        "duration" : 73489
+      }
+    }, {
+      "uid" : "f0b9d9a56fb8ab23",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614148525661,
+        "stop" : 1614148565736,
+        "duration" : 40075
+      }
+    }, {
+      "uid" : "85732f271f44a7d8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614142528143,
+        "stop" : 1614142547797,
+        "duration" : 19654
+      }
+    }, {
+      "uid" : "90114c6f7e376770",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1614137906614,
+        "stop" : 1614137978579,
+        "duration" : 71965
+      }
+    }, {
+      "uid" : "30fb0398949b0a76",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1614071653602,
+        "stop" : 1614071729324,
+        "duration" : 75722
+      }
+    }, {
+      "uid" : "31bfa647f8578497",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612796794997,
+        "stop" : 1612796835093,
+        "duration" : 40096
+      }
+    }, {
+      "uid" : "ca926dc18a66e457",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612028683485,
+        "stop" : 1612028722128,
+        "duration" : 38643
+      }
+    }, {
+      "uid" : "7aa87309d4112303",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608197472797,
+        "stop" : 1608197500359,
+        "duration" : 27562
+      }
+    }, {
+      "uid" : "2beb4bb35a0f0b56",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608133420116,
+        "stop" : 1608133461694,
+        "duration" : 41578
+      }
+    }, {
+      "uid" : "2717629451f1f2bf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608109040756,
+        "stop" : 1608109080501,
+        "duration" : 39745
+      }
+    }, {
+      "uid" : "d59b8fa55b5dff8a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608108067897,
+        "stop" : 1608108108137,
+        "duration" : 40240
+      }
+    }, {
+      "uid" : "967352b16ed77ec5",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: A new session could not be created. (Original error: UiAutomator quit before it successfully launched)",
+      "time" : {
+        "start" : 1608107901913,
+        "stop" : 1608107901913,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f74a325e0956dafa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607864073530,
+        "stop" : 1607864093320,
+        "duration" : 19790
+      }
+    }, {
+      "uid" : "7c466455731e1dfc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607616385926,
+        "stop" : 1607616405451,
+        "duration" : 19525
+      }
+    }, {
+      "uid" : "bb3dbd301dc2d54d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607612893829,
+        "stop" : 1607612926572,
+        "duration" : 32743
+      }
+    }, {
+      "uid" : "8437f144f3ca954b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607495670550,
+        "stop" : 1607495686156,
+        "duration" : 15606
+      }
+    }, {
+      "uid" : "29cbf2763a08b40f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607321563813,
+        "stop" : 1607321599488,
+        "duration" : 35675
+      }
+    }, {
+      "uid" : "83d2ceb733b19661",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607315583909,
+        "stop" : 1607315619906,
+        "duration" : 35997
+      }
+    }, {
+      "uid" : "9eb4b64333fd4412",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607314528770,
+        "stop" : 1607314564497,
+        "duration" : 35727
+      }
+    }, {
+      "uid" : "292dfa2bf9abc246",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session/4ab56ce5-9a74-4c6c-bde5-19f43fc2236f/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E2E533A6D0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "time" : {
+        "start" : 1607262478119,
+        "stop" : 1607262539607,
+        "duration" : 61488
+      }
+    }, {
+      "uid" : "13c1dd6f159f6491",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606915313099,
+        "stop" : 1606915330273,
+        "duration" : 17174
+      }
+    }, {
+      "uid" : "20cea33392d9cf6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606912388269,
+        "stop" : 1606912425754,
+        "duration" : 37485
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 5,
+        "skipped" : 0,
+        "passed" : 55,
+        "unknown" : 0,
+        "total" : 62
+      },
+      "items" : [ {
+        "uid" : "b7d3938c2491d896",
+        "reportUrl" : "http://localhost:8080/job/Timing/105/allure/#testresult/b7d3938c2491d896",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616597255089,
+          "stop" : 1616597268551,
+          "duration" : 13462
+        }
+      }, {
+        "uid" : "15cd9ac02c4c6bd2",
+        "reportUrl" : "http://localhost:8080/job/Timing/104/allure/#testresult/15cd9ac02c4c6bd2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616596066788,
+          "stop" : 1616596083841,
+          "duration" : 17053
+        }
+      }, {
+        "uid" : "323e18adbe27727a",
+        "reportUrl" : "http://localhost:8080/job/Timing/103/allure/#testresult/323e18adbe27727a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616584809839,
+          "stop" : 1616584823342,
+          "duration" : 13503
+        }
+      }, {
+        "uid" : "a44cae0bbba620db",
+        "reportUrl" : "http://localhost:8080/job/Timing/101/allure/#testresult/a44cae0bbba620db",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616577506610,
+          "stop" : 1616577528414,
+          "duration" : 21804
+        }
+      }, {
+        "uid" : "86e0b074d41c0eb0",
+        "reportUrl" : "http://localhost:8080/job/Timing/100/allure/#testresult/86e0b074d41c0eb0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616142228929,
+          "stop" : 1616142243098,
+          "duration" : 14169
+        }
+      }, {
+        "uid" : "219150cb27020b51",
+        "reportUrl" : "http://localhost:8080/job/Timing/99/allure/#testresult/219150cb27020b51",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616137871172,
+          "stop" : 1616137885951,
+          "duration" : 14779
+        }
+      }, {
+        "uid" : "98d2dd9979a93881",
+        "reportUrl" : "http://localhost:8080/job/Timing/98/allure/#testresult/98d2dd9979a93881",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616122290467,
+          "stop" : 1616122308269,
+          "duration" : 17802
+        }
+      }, {
+        "uid" : "156f9d914694a81b",
+        "reportUrl" : "http://localhost:8080/job/Timing/94/allure/#testresult/156f9d914694a81b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615967216008,
+          "stop" : 1615967228782,
+          "duration" : 12774
+        }
+      }, {
+        "uid" : "2ebeca203ba9a8bb",
+        "reportUrl" : "http://localhost:8080/job/Timing/93/allure/#testresult/2ebeca203ba9a8bb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615945282490,
+          "stop" : 1615945295067,
+          "duration" : 12577
+        }
+      }, {
+        "uid" : "cde515f7c7435b30",
+        "reportUrl" : "http://localhost:8080/job/Timing/92/allure/#testresult/cde515f7c7435b30",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615897165350,
+          "stop" : 1615897175397,
+          "duration" : 10047
+        }
+      }, {
+        "uid" : "3429a78cd25a0e62",
+        "reportUrl" : "http://localhost:8080/job/Timing/90/allure/#testresult/3429a78cd25a0e62",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615720933564,
+          "stop" : 1615720948727,
+          "duration" : 15163
+        }
+      }, {
+        "uid" : "65f2fd93dd20ae1b",
+        "reportUrl" : "http://localhost:8080/job/Timing/89/allure/#testresult/65f2fd93dd20ae1b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615708393814,
+          "stop" : 1615708409898,
+          "duration" : 16084
+        }
+      }, {
+        "uid" : "bd0581473867a0c4",
+        "reportUrl" : "http://localhost:8080/job/Timing/85/allure/#testresult/bd0581473867a0c4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615516422337,
+          "stop" : 1615516437402,
+          "duration" : 15065
+        }
+      }, {
+        "uid" : "a437ca98f7aba195",
+        "reportUrl" : "http://localhost:8080/job/Timing/84/allure/#testresult/a437ca98f7aba195",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615469116344,
+          "stop" : 1615469128616,
+          "duration" : 12272
+        }
+      }, {
+        "uid" : "7f2edbec8dad55c0",
+        "reportUrl" : "http://localhost:8080/job/Timing/83/allure/#testresult/7f2edbec8dad55c0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615466611757,
+          "stop" : 1615466623467,
+          "duration" : 11710
+        }
+      }, {
+        "uid" : "9ce474b6b2472b46",
+        "reportUrl" : "http://localhost:8080/job/Timing/82/allure/#testresult/9ce474b6b2472b46",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615455608954,
+          "stop" : 1615455621912,
+          "duration" : 12958
+        }
+      }, {
+        "uid" : "99a5c35f0e3243a2",
+        "reportUrl" : "http://localhost:8080/job/Timing/81/allure/#testresult/99a5c35f0e3243a2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615031205019,
+          "stop" : 1615031232908,
+          "duration" : 27889
+        }
+      }, {
+        "uid" : "cec6a1f309c5bea4",
+        "reportUrl" : "http://localhost:8080/job/Timing/80/allure/#testresult/cec6a1f309c5bea4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615020165418,
+          "stop" : 1615020192332,
+          "duration" : 26914
+        }
+      }, {
+        "uid" : "a5955423533b9a8f",
+        "reportUrl" : "http://localhost:8080/job/Timing/78/allure/#testresult/a5955423533b9a8f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614626396012,
+          "stop" : 1614626427739,
+          "duration" : 31727
+        }
+      }, {
+        "uid" : "1d0644212d8b34a4",
+        "reportUrl" : "http://localhost:8080/job/Timing/77/allure/#testresult/1d0644212d8b34a4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614613191313,
+          "stop" : 1614613217960,
+          "duration" : 26647
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "4e380cf4b6ae24c6.json",
+  "parameterValues" : [ ]
+}
